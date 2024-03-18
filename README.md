@@ -2,7 +2,7 @@
 
  # Small Business Management Application
 
-![Occupational guidance](/src/assets/images/screenShot.png)
+![Occupational guidance](../BusinessApp/reactProjectClient/src/assets/images/screenShot.png)
 
 Welcome to our application for managing and controlling a small business. The application provides services for two types of personalities, service for the user and service for the business owner.
 
