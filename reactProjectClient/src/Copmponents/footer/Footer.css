@@ -1,0 +1,97 @@
+.footerDiv {
+  background-color: #00b4d9;
+  display: flex;
+  align-items: center;
+  bottom: 0%;
+  justify-content: space-evenly;
+}
+
+.pDetails {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content:space-evenly;
+  color: white;
+  font-size: 20px;
+  justify-content: flex-start;
+}
+
+.line {
+  background-color: white;
+  height: 2px;
+}
+
+.newsletter {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.outlined-basic {
+  background-color: rgba(255, 255, 255, 0.403);
+  border: 8px solid black;
+  width: 250px;
+}
+
+.addToNewsleeter {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: #246fac;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.sendButton.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  background-color: white;
+}
+
+li,
+a {
+  font-size: 20px;
+  color: #092944;
+}
+
+h2,
+h3 {
+  color: #246fac;
+}
+
+.socialMediaDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+  justify-content: space-around;
+}
+
+.socialmediaIcon {
+  color: #164872;
+}
+
+@media (max-width: 768px) {
+  .footerDiv {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .details {
+    margin-top: 20px;
+  }
+
+  .newsletter {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .outlined-basic {
+    width: 100%;
+  }
+
+  .sendButton {
+    width: 100%;
+  }
+}
